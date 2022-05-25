@@ -3,10 +3,10 @@
 <remote name="abcd-remote"
         fetch="https://github.com/" />
 
-<remote name="gitlab"
+<remote name="efgh-remote"
         fetch="https://gitlab.com/" />
 
-<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" clone-depth="1" revision="sigma" />
+<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="efgh-remote" clone-depth="1" revision="sigma" />
 <project path="device/motorola/ocean" name="brvn0/android_device_motorola_ocean" remote="abcd-remote" revision="lineage-19.1" />
 <project path="device/motorola/sdm632-common" name="LineageOS/android_device_motorola_sdm632-common" remote="abcd-remote" revision="lineage-19.1" />
 <project path="kernel/motorola/sdm632" name="LineageOS/android_kernel_motorola_sdm632-common" remote="abcd-remote" revision="lineage-19.1" clone-depth="1"/>
