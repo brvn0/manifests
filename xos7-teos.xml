@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="windowz414"
+           fetch="https://git.polycule.co/windowz414/"
+           revision="cm-14.1" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_vestel_teos" path="device/vestel/teos" remote="windowz414" revision="XOS-7.1" />
+
+  <!-- VENDOR TREES
+  #####################################################-->
+  <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="windowz414" />
+
+  <!-- KERNEL TREES
+  #####################################################-->
+  <project name="android_kernel_vestel_msm8920" path="kernel/vestel/msm8920" remote="windowz414" />
+
+</manifest>
